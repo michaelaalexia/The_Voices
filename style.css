@@ -10,6 +10,19 @@ img {
     max-width: 600px;
 }
 
+.luxurious-roman-regular, h1, h2, h3, nav {
+    font-family: "Luxurious Roman", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lexend, p {
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 90;
+    font-style: normal;
+  }
+
 h1 {
     font-size: 70px;
 }
@@ -27,6 +40,7 @@ p {
 }
 
 /* nav bar and section */
+
 .nav_bar {
     background-color: #00072D;
     color: white;
