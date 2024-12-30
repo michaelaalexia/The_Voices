@@ -1,3 +1,4 @@
+/* overall settings */
 body {
     background-color: #001241;
     color: white;
@@ -9,20 +10,21 @@ img {
     height: auto;
     max-width: 600px;
 }
-
+ /* fonts for headings and nav */
 .luxurious-roman-regular, h1, h2, h3, nav {
     font-family: "Luxurious Roman", serif;
     font-weight: 400;
     font-style: normal;
   }
-  
+
+/* fonts for body text */
   .lexend, p {
     font-family: "Lexend", serif;
     font-optical-sizing: auto;
     font-weight: 90;
     font-style: normal;
   }
-
+/* font sizes */
 h1 {
     font-size: 70px;
 }
@@ -38,6 +40,7 @@ h3 {
 p {
     font-size: 30px;
 }
+
 
 /* nav bar and section */
 
@@ -67,9 +70,9 @@ p {
     padding: 2%;
     background-color: #A6E1FA;
     color: #00072D;
-    margin-left: 11%;
-    margin-right: 11%;
-    margin-top: 5;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .holder h3 {
@@ -80,7 +83,7 @@ p {
     display: flex;
     gap: 10%;
     max-width: 800px;
-    padding-left: 13%;
+    padding-left: 10%;
 }
 
 .column {
