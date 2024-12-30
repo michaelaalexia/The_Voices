@@ -2,3 +2,42 @@ body {
     background-color: #001241;
     color: white;
 }
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.nav_bar {
+    background-color: #00072D;
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin: none;
+}
+
+.section {
+    background-color: #1E458A;
+}
+
+.holder {
+    padding: 2%;
+    background-color: #FFFFFF;
+    color: #070410;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 5;
+}
+
+.con {
+    display: flex;
+    gap: 10%;
+    max-width: 800px;
+    margin-left: 7%;
+}
+
+.column2 {
+    flex: 50%
+}
