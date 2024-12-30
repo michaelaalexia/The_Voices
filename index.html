@@ -8,11 +8,12 @@
 </head>
 <body>
     <nav class="nav_bar">
-        <img>
-        <a href="#">About</a>
-        <a href="#">Volumes</a>
-        <a href="#">Main Characters</a>
-        <a href="#">Map</a>
+        <img src="images/tv_logo.png">
+        <!-- takes you to diff sections in the website -->
+        <a href="#about">About</a>
+        <a href="#volumes">Volumes</a>
+        <a href="#main_c">Main Characters</a>
+        <a href="#map">Locations</a>
     </nav>
 
     <div class="tv_title">
@@ -21,28 +22,64 @@
         <p>words, yes</p>
     </div> <br><br>
 
-<div class="section">
-    <div class="tv_about">
+<div class="section"> <!-- this colors all this section a diff shade of blue -->
+    <div class="tv_about" id="about">
         <h2>About The Voices</h2>
         <img>
         <p>more words, wieeeee</p>
     </div>
 
-    <div class="holder">
+    <div class="holder" id="volumes"> <!-- books section -->
         <div class="con">
-            <div class="column2">
+            <div class="column">
                 <img src="images/tfs.png">
-                <h2>Volume I</h2>
+                <h3>Volume I</h3>
                 <h1>Their First Symphony</h1>
             </div>
-            <div class="column2">
+            <div class="column">
                 <img src="images/fh.png">
-                <h2>Volume II</h2>
+                <h3>Volume II</h3>
                 <h1>Finding Harmony</h1>
             </div>
         </div> 
+    </div><br><br>
+</div> 
+
+<div class="books"> <!-- indiv books -->
+    <div class="pic"><img src="images/tfs.png"></div>
+    <div class="title"><h1>Their First Symphony</h1></div>
+    <div class="descrip">insert description here</div>
+</div>
+
+<div class="books"> 
+    <div class="pic"><img src="images/fh.png"></div>
+    <div class="title"><h1>Finding Harmony</h1></div>
+    <div class="descrip">insert description here</div>
+</div>
+
+<div class="section" id="main_c">
+    <h1>The Main Characters</h1>
+    <div class="mcs">
+        <div class="mc_pic"><img src="images/jenna.png"></div>
+        <div class="mc_title"><h2>Jenna McCartney</h2></div>
+        <div class="mc_description"><p>description go brrr</p></div>
     </div>
 
+    <div class="mcs">
+        <div class="mc_pic"><img src="images/gray.png"></div>
+        <div class="mc_title"><h2>Grayson Sanders</h2></div>
+        <div class="mc_description"><p>description go brrr</p></div>
+    </div> <br> <br>
 </div>
+
+<h1 id="map">The Locations</h1>
+
+<div class="l_border"><img src="images/SYMPHONIER.jpg"></div>
+<h2>Symphonièr</h2>
+<p>Symph description</p>
+<br><br>
+<div class="l_border"><img src="images/mr.png"></div>
+<h2>The Mundane Realm</h2>
+<p>descrip</p>
 </body>
 </html>
