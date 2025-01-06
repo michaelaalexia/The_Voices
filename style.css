@@ -382,45 +382,7 @@ body {
     }
 
     /* Container for the main image and lens */
-    .z_con {
-        position: relative;
-        overflow: hidden;
-        width: 300px;
-        height: 200px;
-    }
-    
-    .z_con img {
-        width: 100%;
-        height: auto;
-    }
-    
-    .zoom_lense {
-        position: absolute;
-        border: 2px solid black;
-        background: rgba(255, 255, 255, 0.3);
-        width: 100px;
-        height: 100px;
-        display: none;
-        pointer-events: none;
-    }
-    
-    .z_result {
-        position: absolute;
-        top: 0;
-        left: 320px;
-        width: 400px;
-        height: 300px;
-        overflow: hidden;
-        display: none;
-        border: 1px solid #ccc;
-    }
-    
-    .z_result img {
-        position: absolute;
-        width: 800px;
-    }
-    
-
+  
 }
 
 /*
