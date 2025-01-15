@@ -247,12 +247,11 @@ body {
     .mcs {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        gap: 1px;
+        grid-template-rows: repeat(1, 1fr);
     }
         
     .mc_pic {
-        grid-row: span 4 / span 4;
+        grid-row: span 2/ span 2;
         grid-column-start: 1;
         grid-row-start: 2;
     }
@@ -268,6 +267,7 @@ body {
         grid-row-start: 1;
         text-align: left;
     }
+    
 
     
     #symph {
@@ -389,7 +389,7 @@ body {
     .mcs {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         gap: 1px;
     }
         
