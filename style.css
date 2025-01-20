@@ -13,13 +13,8 @@ body {
     color: white;
     text-align: center;
 }
+/* fonts for headings and nav */
 
-/* img {
-    width: 100%;
-    height: auto;
-    max-width: 600px;
-} */
- /* fonts for headings and nav */
 .luxurious-roman-regular, h1, h2, h3, nav {
     font-family: "Luxurious Roman", serif;
     font-weight: 400;
@@ -33,7 +28,6 @@ body {
     font-weight: 90;
     font-style: normal;
   }
-/* font sizes */
 
 @media (min-width: 360px) and (max-width: 719px){
     nav {
@@ -106,14 +100,6 @@ body {
     .l_border {
         background-color: white;
         padding: 1%;
-    }
-
-    .l_border button {
-        width: 200px;
-        height: 30px;
-        font-size: 20px;
-        background-color: #00072D;
-        color: #A6E1FA;
     }
 
     
@@ -232,14 +218,6 @@ body {
         padding: 1%;
     }
 
-    .l_border button {
-        width: 300px;
-        height: 30px;
-        font-size: 20px;
-        background-color: #00072D;
-        color: #A6E1FA;
-    }
-
     #tmc {
         background-color: #00072D;
     }
@@ -267,8 +245,6 @@ body {
         grid-row-start: 1;
         text-align: left;
     }
-    
-
     
     #symph {
         width: 100%;
@@ -417,143 +393,9 @@ body {
         justify-content: center;
     }
 
-    .l_border button {
-        width: 500px;
-        height: 50px;
-        font-size: 40px;
-        background-color: #00072D;
-        color: #A6E1FA;
-    }
-
     #symph {
         width: 100%;
         height: auto;
     }
   
 }
-
-/*
- h1 {
-    font-size: 70px;
-}
-
-h2 {
-    font-size: 50px;
-}
-
-h3 {
-    font-size: 40px;
-}
-
-p {
-    font-size: 30px;
-}
-
-
-/* nav bar and section 
-
-nav {
-    background-color: #00072D;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 40px;
-    padding: 2%;
-}
-
-nav img {
-    width: 100%;
-    height: auto;
-    max-width: 100px;
-    justify-self: left;
-    display: flex;
-}
-
-.section {
-    background-color: #1E458A;
-}
-
-/* two-column holder for books 
-.holder {
-    padding: 2%;
-    background-color: #A6E1FA;
-    color: #00072D;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-.holder h3 {
-    color: #001241;
-}
-
-.con {
-    display: flex;
-    gap: 10%;
-    max-width: 800px;
-    padding-left: 10%;
-}
-
-.column {
-    flex: 50%
-}
-
-/* grid for indiv books 
-
-.books {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 8px;
-}
-    
-.pic {
-    grid-row: span 4 / span 4;
-    grid-column-start: 1;
-    grid-row-start: 2;
-}
-
-.title {
-    grid-column: span 2 / span 2;
-    grid-column-start: 1;
-    grid-row-start: 1;
-}
-
-.descrip {
-    grid-row: span 4 / span 4;
-    grid-row-start: 2;
-    text-align: left;
-}
-        
-
-.mcs {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 1px;
-}
-    
-.mc_pic {
-    grid-row: span 4 / span 4;
-    grid-column-start: 1;
-    grid-row-start: 2;
-}
-
-.mc_title {
-    grid-column: span 2 / span 2;
-    grid-column-start: 1;
-    grid-row-start: 1;
-}
-
-.mc_descrip {
-    grid-row: span 1 / span 1;
-    grid-row-start: 1;
-    text-align: left;
-}
-
-.l_border {
-    background-color: white;
-    padding: 1%;
-    margin-left: 350px;
-    margin-right: 350px;
-} */
